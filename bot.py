@@ -42,7 +42,7 @@ from lazybot.clients import initialize_clients
 
 PORT = "8080"
 LazyPrincessBot.start()
-loop = asyncio.get_event_loop()
+loop = asyncio.new_event_loop()
 
 
 async def Lazy_start():
